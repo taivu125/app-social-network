@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1043353011688",
+    "firebase_url": "https://vunity-40715-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vunity-40715",
+    "storage_bucket": "vunity-40715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043353011688:android:a109cd5213b746f460d05d",
+        "android_client_info": {
+          "package_name": "com.tqc.tuvisocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043353011688-tp2c0d7ig54vm87c0dqck6d8gh9jsug9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tqc.tuvisocial",
+            "certificate_hash": "9c7663deabda8f34d1bf4411606f6c9077ed26bf"
+          }
+        },
+        {
+          "client_id": "1043353011688-rfrp76bjg26s58g2b8njrbn6o6umig46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN-BrtgO1b-J4ccKJBrSuhcr1SweSY3h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043353011688-rfrp76bjg26s58g2b8njrbn6o6umig46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

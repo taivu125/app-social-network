@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/vunity-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.39947916666666666" />
+        <entry key="..\:/vunity-master/app/src/main/res/drawable/border_bg_white50.xml" value="0.39947916666666666" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/activity_login.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/activity_main.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/activity_post_detail.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/activity_post_share_detail.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/chang_info_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/change_language_setting.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/chat_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/chat_item_color_dialog_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/create_information_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/create_post_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/dialog_create_group_chat_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/dialog_message.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/edit_avt_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/fragment_confirm_o_t_p.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/home_fragment.xml" value="0.33" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_chat_image_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_chat_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_comment_post_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_create_post_image_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_home_post_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_post_image_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_post_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_post_share_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/item_show_more_image_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/loading_dialog.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/main_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/notify_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/notify_item_layout_dialog.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/poicily_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/post_hide_post_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/profile_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/show_image_full_screen_layout.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/layout/view_profile_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.38333333333333336" />
+        <entry key="..\:/vunity-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.39947916666666666" />
+        <entry key="..\:/vunity-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.39947916666666666" />
+        <entry key="app/src/main/res/drawable-v24/border_navigation.xml" value="0.31574074074074077" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22916666666666666" />
+        <entry key="app/src/main/res/drawable/border_bg_white50.xml" value="0.35" />
+        <entry key="app/src/main/res/drawable/border_blue_bg_white.xml" value="0.35" />
+        <entry key="app/src/main/res/drawable/border_button_bg_blue.xml" value="0.23541666666666666" />
+        <entry key="app/src/main/res/drawable/border_button_bg_red.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/drawable/border_button_bg_silver.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/drawable/border_button_bg_white.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/drawable/border_button_bg_white_f0f2f5.xml" value="0.35234375" />
+        <entry key="app/src/main/res/drawable/border_button_bg_white_f2f5f0.xml" value="0.35234375" />
+        <entry key="app/src/main/res/drawable/border_red_bg_white.xml" value="0.32685185185185184" />
+        <entry key="app/src/main/res/drawable/border_top_bottom.xml" value="0.34296875" />
+        <entry key="app/src/main/res/drawable/border_top_bottom_bg_blue50.xml" value="0.34296875" />
+        <entry key="app/src/main/res/drawable/border_top_bottomn.xml" value="0.25078125" />
+        <entry key="app/src/main/res/drawable/border_white_bg_f0f2f5.xml" value="0.35234375" />
+        <entry key="app/src/main/res/drawable/bottom_nav_color.xml" value="0.3446153846153846" />
+        <entry key="app/src/main/res/drawable/call_bg_gradient.xml" value="0.22916666666666666" />
+        <entry key="app/src/main/res/drawable/img_circle.xml" value="0.3446153846153846" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/activity_post_detail.xml" value="0.2506265664160401" />
+        <entry key="app/src/main/res/layout/activity_post_share_detail.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/activity_video_full_screen.xml" value="0.5729166666666666" />
+        <entry key="app/src/main/res/layout/activity_voice_call.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/add_member_fragment.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/border_top_bottom.xml" value="0.2265625" />
+        <entry key="app/src/main/res/layout/bottom_dialog_setting_chat_single.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/chang_info_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/chang_nick_name_dialog.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/change_language_setting.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/change_password_fragment.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/chat_chang_color_dialog.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/chat_chang_nick_name_dialog.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/chat_change_nick_name_group_dialog.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/chat_fragment.xml" value="0.40100250626566414" />
+        <entry key="app/src/main/res/layout/chat_image_choose_show_layout.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/chat_item_color_dialog_layout.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/chat_setting_group_layout.xml" value="0.3407960199004975" />
+        <entry key="app/src/main/res/layout/chat_setting_member_group_layout.xml" value="0.35074626865671643" />
+        <entry key="app/src/main/res/layout/chat_setting_single_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/create_information_fragment.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/create_post_fragment.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/dialog_choose_image.xml" value="0.21927083333333333" />
+        <entry key="app/src/main/res/layout/dialog_create_group_chat_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/dialog_list_member_group_chat.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/dialog_message.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/edit_avt_chat_group_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/edit_avt_fragment.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/edit_background_fragment.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_confirm_o_t_p.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/fragment_create_account.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/group_member_fragment.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/help_center_fragment.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/home_fragment.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_add_friend_group_chat_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_chat_image_layout.xml" value="0.3848314606741573" />
+        <entry key="app/src/main/res/layout/item_chat_layout.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/layout/item_chow_image_choose_chat_layout.xml" value="0.15211267605633802" />
+        <entry key="app/src/main/res/layout/item_comment_post_layout.xml" value="0.31756756756756754" />
+        <entry key="app/src/main/res/layout/item_create_post_image_layout.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/item_friend_group_chat_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_friend_layout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_home_post_layout.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/item_home_post_share_layout.xml" value="0.43137254901960786" />
+        <entry key="app/src/main/res/layout/item_iamge_layout.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/item_image_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/item_image_profile_layout.xml" value="0.75" />
+        <entry key="app/src/main/res/layout/item_message_chat_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/item_message_chat_layput.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/item_message_image_layout.xml" value="0.23595505617977527" />
+        <entry key="app/src/main/res/layout/item_post_image_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_post_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/item_post_share_layout.xml" value="0.3644067796610169" />
+        <entry key="app/src/main/res/layout/item_show_more_image_layout.xml" value="0.75" />
+        <entry key="app/src/main/res/layout/loading_dialog.xml" value="0.2347417840375587" />
+        <entry key="app/src/main/res/layout/main_fragment.xml" value="0.2225705329153605" />
+        <entry key="app/src/main/res/layout/message_fragment.xml" value="0.31950207468879666" />
+        <entry key="app/src/main/res/layout/message_group_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/notify_accept_request_friend.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/notify_fragment.xml" value="0.3296296296296296" />
+        <entry key="app/src/main/res/layout/notify_item_layout_dialog.xml" value="0.2984126984126984" />
+        <entry key="app/src/main/res/layout/poicily_fragment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/post_hide_post_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/post_list_fragment.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/profile_fragment.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/register_fragment.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/setting_fragment.xml" value="0.456973293768546" />
+        <entry key="app/src/main/res/layout/show_image_full_screen_layout.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/show_more_fragment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/view_profile_fragment.xml" value="0.3644251626898048" />
+        <entry key="app/src/main/res/layout/view_video_fragment.xml" value="0.29819277108433734" />
+        <entry key="app/src/main/res/layout/voice_call_fragment.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/menu/bottom_manager_navigation_menu.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.25078125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

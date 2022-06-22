@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title=""
+        android:visible="true"
+        android:iconTint="@color/black"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/chat"
+        android:iconTint="@color/black"
+        android:title=""
+        android:visible="true"
+        android:icon="@drawable/ic_messenger" />
+
+    <item
+        android:id="@+id/notify"
+        android:iconTint="@color/black"
+        android:title=""
+        android:visible="true"
+        android:icon="@drawable/ic_notify" />
+
+    <item
+        android:id="@+id/profile"
+        android:iconTint="@color/black"
+        android:icon="@drawable/ic_user"
+        android:visible="true"
+        android:title="" />
+</menu>

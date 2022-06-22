@@ -1,0 +1,140 @@
+import java.text.SimpleDateFormat
+
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    compileSdk 31
+
+
+    defaultConfig {
+        applicationId "com.tqc.tuvisocial"
+        minSdk 23
+        targetSdk 31
+        versionCode 1
+        versionName "1.0.8"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        resConfigs "en", "ru"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+    applicationVariants.all { variant ->
+        configApkFileName(variant, defaultConfig)
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha09'
+
+    //base
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+    implementation 'com.google.code.gson:gson:2.8.8'
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'androidx.work:work-runtime-ktx:2.7.0'
+
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:28.4.2')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+
+    //Support
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //ImagePicker
+    implementation 'com.github.jkwiecien:EasyImage:3.0.4'
+    implementation 'com.github.hkk595:Resizer:v1.5'
+    //VideoPicker
+    implementation 'net.alhazmy13.MediaPicker:libary:2.4.4'
+    //Adapter cho RecycleView
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+    //Load image
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    //Zoom image
+    implementation 'com.github.MikeOrtiz:TouchImageView:3.1.1'
+    implementation 'com.github.chrisbanes:PhotoView:2.0.0'
+    //call api
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    //Voice call
+    implementation 'io.agora.rtc:full-sdk:3.5.0'
+    //Emoji
+    implementation 'com.github.hani-momanii:SuperNova-Emoji:1.1'
+    //Play video
+    implementation 'com.google.android.exoplayer:exoplayer:2.16.1'
+    //Date picker
+    implementation 'com.github.florent37:singledateandtimepicker:2.2.7'
+    //Crop
+    implementation 'com.github.yalantis:ucrop:2.2.6-native'
+}
+
+def getCurrentDayTime() {
+    Date today = new Date()
+    SimpleDateFormat df = new SimpleDateFormat("ddMMyyyy")
+    return df.format(today)
+}
+
+def configApkFileName(variant, defaultConfig) {
+    variant.outputs.each { output ->
+        if (variant.buildType.name == android.buildTypes.release.name) {
+            output.outputFileName = new File("../", "TuViSocial"
+                    + "_v" + defaultConfig.versionName + "_"
+                    + getCurrentDayTime()
+                    + ".apk")
+        } else if (variant.buildType.name == android.buildTypes.debug.name) {
+            output.outputFileName = new File("../", "TuViSocial"
+                    + ".apk")
+        }
+
+    }
+}
